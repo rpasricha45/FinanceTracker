@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+   android:background="#2f2e2e"
+    >
+
+    <TableRow
+        android:background="#4d4c4c">
+
+        <TextView
+            android:layout_column="1"
+            android:padding="15dip"
+            android:text="Currency Exchange rate "
+            android:textSize="25sp"
+            android:textColor="@color/white"
+
+
+            />
+
+        <Button
+            android:id="@+id/backButton"
+            android:background="#4d4c4c"
+            android:drawableRight="@mipmap/backbutton_12"
+            android:height="20dp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+
+            />
+        <!--<TextView
+            android:text="Ctrl-O"
+            android:gravity="right"
+            android:padding="7dip"
+
+
+            />-->
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="EUR"
+            android:padding="7dip"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/eur"
+            android:text="Ctrl-S"
+            android:gravity="right"
+            android:textColor="@color/white"
+
+            android:padding="7dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="CHF"
+            android:textColor="@color/white"
+            android:padding="7dip" />
+        <TextView
+            android:id="@+id/CHF"
+            android:text="C"
+            android:gravity="right"
+            android:textColor="@color/white"
+            android:padding="3dip" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="GBP"
+            android:padding="7dip" />
+        <TextView
+            android:id="@+id/GBP"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:gravity="right"
+            android:text="GBP"
+            android:padding="7dip" />
+
+
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="CNY"
+            android:padding="7dip" />
+        <TextView
+            android:id="@+id/CNY"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="CNY"
+            android:gravity="right"
+            android:padding="7dip"  />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="SEK"
+            android:padding="7dip" />
+        <TextView
+            android:id="@+id/SEK"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="CNY"
+            android:gravity="right"
+            android:padding="7dip"  />
+
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="BRL"
+            android:padding="7dip" />
+        <TextView
+            android:id="@+id/BRL"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="CNY"
+            android:gravity="right"
+            android:padding="7dip"  />
+
+
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="NZD"
+            android:padding="7dip" />
+        <TextView
+            android:id="@+id/NZD"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="CNY"
+            android:gravity="right"
+            android:padding="7dip"  />
+
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="MXN"
+            android:padding="7dip" />
+        <TextView
+            android:id="@+id/MXN"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="CNY"
+            android:gravity="right"
+            android:padding="7dip"  />
+
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="SGD"
+            android:padding="7dip" />
+        <TextView
+            android:id="@+id/SGD"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="CNY"
+            android:gravity="right"
+            android:padding="7dip"  />
+
+
+    </TableRow>
+    <TableRow>
+        <TextView
+
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="HKD"
+            android:padding="7dip" />
+        <TextView
+            android:id="@+id/HKD"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="CNY"
+            android:gravity="right"
+            android:padding="7dip"  />
+
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="NOK"
+            android:padding="7dip" />
+        <TextView
+            android:id="@+id/NOK"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="CNY"
+            android:gravity="right"
+            android:padding="7dip"  />
+
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="KRW"
+            android:padding="7dip" />
+        <TextView
+            android:id="@+id/KRW"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="CNY"
+            android:gravity="right"
+            android:padding="7dip"  />
+
+
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="TRY"
+            android:padding="7dip" />
+        <TextView
+            android:id="@+id/TRY"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="CNY"
+            android:gravity="right"
+            android:padding="7dip"  />
+
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="RUB"
+            android:padding="7dip" />
+        <TextView
+            android:id="@+id/RUB"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="CNY"
+            android:gravity="right"
+            android:padding="7dip"  />
+
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="INR"
+            android:padding="7dip" />
+        <TextView
+            android:id="@+id/INR"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="CNY"
+            android:gravity="right"
+            android:padding="7dip"  />
+
+
+    </TableRow>
+</TableLayout>
